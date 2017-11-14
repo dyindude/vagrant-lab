@@ -53,3 +53,9 @@ Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-98-generic x86_64)
 
 ubuntu@ubuntu-xenial:~$ 
 ```
+
+# contact
+If you run into issues with the setup, feel free to reach out to me:
+
+https://twitch.tv/dyindude
+https://twitter.com/dyindude
