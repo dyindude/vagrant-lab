@@ -1,7 +1,7 @@
 # vagrant-lab
 This repository is to be used as a guide for helping you install a few tools to aid in learning a variety of Linux/IT skills. I will be using a machine configured like this as the basis for the labs I create for learning material.
 
-# setting up the environment
+# Setting up the environment
 In order to run any lab, you will need at a bare minimum the following two pieces of software:
 - [Virtualbox](https://www.virtualbox.org/)
 - [Vagrant](https://www.vagrantup.com/)
@@ -9,13 +9,15 @@ In order to run any lab, you will need at a bare minimum the following two piece
 In addition, it is recommended that you install a `git` client for your OS.
 - [Windows](https://git-scm.com/download/win)
 - Linux: install using your package manager
+  - ubuntu/debian: `sudo apt-get install git`
+  - rhel/centos/fedora: `sudo yum install git`
 - OSX: run `xcode-select --install` from the terminal
 
-# testing the environment
+# Testing the environment
 After all of the above software has been installed, download a copy of this repository, extract it, and navigate to the folder in the terminal of your choice:
-- Windows: cmd.exe, powershell.exe, babun
-- Linux: gnome-terminal, urxvt, etc
-- OSX: Terminal.app, iTerm2
+- Windows: `cmd.exe`, `powershell.exe`, `babun`
+- Linux: `gnome-terminal`, `urxvt`, `xterm` etc
+- OSX: `Terminal.app`, [iTerm2](https://github.com/gnachman/iTerm2)
 
 From the folder, run the command: `vagrant up`. Vagrant will download the `ubuntu/xenial64` and start a virtual machine in the background.
 
@@ -54,7 +56,7 @@ Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-98-generic x86_64)
 ubuntu@ubuntu-xenial:~$ 
 ```
 
-# contact
+# Contact
 If you run into issues with the setup, feel free to reach out to me:
 
 - https://twitch.tv/dyindude
