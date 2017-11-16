@@ -23,7 +23,7 @@ From the folder, run the command: `vagrant up`. Vagrant will download the `ubunt
 
 Once the VM has been started and you return to your shell's prompt, try logging into the VM with `vagrant ssh`
 
-## example:
+## Example:
 ```
 $ vagrant up
 Bringing machine 'default' up with 'virtualbox' provider...
