@@ -57,5 +57,5 @@ ubuntu@ubuntu-xenial:~$
 # contact
 If you run into issues with the setup, feel free to reach out to me:
 
-https://twitch.tv/dyindude
-https://twitter.com/dyindude
+- https://twitch.tv/dyindude
+- https://twitter.com/dyindude
