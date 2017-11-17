@@ -1,8 +1,13 @@
 # vagrant-lab
 This repository is to be used as a guide for helping you install a few tools to aid in learning a variety of Linux/IT skills. I will be using a machine configured like this as the basis for the labs I create for learning material.
 
+#How the labs work
+- [Virtualbox](https://www.virtualbox.org/) is a software for running virtual machines on your system.
+- [Vagrant](https://www.vagrantup.com/) is a software for describing development environments built on virtual machines with text files called Vagrantfiles. With a Vagrantfile, you can build the environment outlined within VirtualBox by simply running `vagrant up` from the command line.
+  - While Vagrant supports other virtualization providers, VirtualBox and Vagrant work well together without any additional configuration. This is why I have chosen them as the basis for my labs.
+
 # Setting up the environment
-In order to run any lab, you will need at a bare minimum the following two pieces of software:
+In order to run any lab, you will need to install both tools:
 - [Virtualbox](https://www.virtualbox.org/)
 - [Vagrant](https://www.vagrantup.com/)
 
@@ -14,12 +19,16 @@ In addition, it is recommended that you install a `git` client for your OS.
 - OSX: run `xcode-select --install` from the terminal
 
 # Testing the environment
-After all of the above software has been installed, download a copy of this repository, extract it, and navigate to the folder in the terminal of your choice:
+After all of the above software has been installed, open a terminal of your choice:
 - Windows: `cmd.exe`, `powershell.exe`, `babun`
 - Linux: `gnome-terminal`, `urxvt`, `xterm` etc
 - OSX: `Terminal.app`, [iTerm2](https://github.com/gnachman/iTerm2)
 
-From the folder, run the command: `vagrant up`. Vagrant will download the `ubuntu/xenial64` and start a virtual machine in the background.
+Clone this repo with git by running:
+
+`git clone https://github.com/dyindude/vagrant-lab.git`
+
+`cd` into the `vagrant-lab` folder and run the command `vagrant up`. Vagrant will download the `ubuntu/xenial64` and start a virtual machine in the background.
 
 Once the VM has been started and you return to your shell's prompt, try logging into the VM with `vagrant ssh`
 
@@ -61,3 +70,4 @@ If you run into issues with the setup, feel free to reach out to me:
 
 - https://twitch.tv/dyindude
 - https://twitter.com/dyindude
+
